@@ -4,6 +4,7 @@ public class MaximumSumCircularSubarray {
 	public int maxSubarraySumCircular(int[] A) {
         int flag=0;
         int maxneg=Integer.MIN_VALUE;
+	//checking if all elements are negative
         for(int i=0;i<A.length;i++){
             if(A[i]>0){
                 flag=1;
